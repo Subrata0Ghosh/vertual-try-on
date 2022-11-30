@@ -67,6 +67,7 @@ FUTURE SCOPE:
 
 This application can be easily implemented in various situations. We can add new features as and 
 when we require them. There is flexibility in all the modules. 
+
     1. This Project works currently for clothes. The Project can be improvised to include male garments also. 
     2. This project can be improvised by including an automatic size recommendation feature for the user. 
     3. It is also providing a window of opportunity for AI-based innovations in the future. And there are already new approaches designed to solve those issues. 
