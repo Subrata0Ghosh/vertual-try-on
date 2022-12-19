@@ -3,6 +3,10 @@ Customers can virtually try on shirts, sweaters, coats, and pants by using their
 
 Nowadays, people are purchasing most of their items online and are spending more on it especially in fashion items since browsing different styles and categories of clothes is easy with just a few mouse clicks. Despite the convenience that online shopping provides, customers tend to concern about how a particular fashion item image on the website would fit with themselves. Therefore, there is an urgent demand to provide a quick and simple solution for virtual try-on. With the recent progress in virtual try-on technologies, people can have a better online shopping experience by accurately envisioning themselves wearing the clothes from online categories. Furthermore, virtual try-on technologies not only have demand in online shopping but also in physical shopping. In other words, with the try-on technologies developed on mobile application, customers can save their time of going into the fitting room.
 
+![Screenshot from 2022-12-19 08-02-30](https://user-images.githubusercontent.com/89849978/208336755-c4be7b43-d3b4-4b55-b1a2-9cdd279881b2.png)
+![Screenshot from 2022-12-19 08-02-38](https://user-images.githubusercontent.com/89849978/208336811-6803ed25-902e-4b31-87b3-60bf128f21b5.png)
+
+
     • The intent of our project is that the users should be able to take virtual experience of Dressing by using Artificial Intelligence and optimizing the cost and time required for trying cloth. 
     • Our application will be a simple web based application that will be user friendly. 
     • The principle of the application is started with uploading picture of user as Model and Targeted Clothes and our model will do Pose Detection, Clothes masking and then finally gives Output as Model with Targeted Clothes. 
