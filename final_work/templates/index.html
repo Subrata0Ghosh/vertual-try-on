@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- adding css -->
+<!-- <link  href="{{url_for('static',filename='style.css')}}" rel="stylesheet" type="text/css"> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='static/style.css') }}"> 
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Welcome !!</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+
+  <div class="main">
+    <h2>Dress try</h2>
+    <p>Tryandbuy allows online shoppers to combine different clothes 
+      and see them on their bodies. Try as many as option until you 
+      find the perfect match.</p>
+   
+  </div>
+
+
+  <!-- file upload start  -->
+<div>
+    <h3>Follow bellow 3 steps </h3>
+    <form action = "/success" method = "post" enctype="multipart/form-data" >  
+      <p> step 1: upload your photo</p>
+        <input type="file" name="file" /> 
+
+      <p>step 2: upload photo of which dress you want to try vertually</p>   
+        <input type="file" name="file2" /> 
+
+      <p>step:3 now submit your image</p> 
+        <input type = "submit" value="Upload"> 
+    </form>
+</div>
+<!-- file upload end  -->
+
+
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Tryndbuy allows online shoppers to combine different 
+      clothes and see them on their bodies.</p>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div id='footer'>© copyright TeamMiet</div>
+
+
+</body>
+</html>
