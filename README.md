@@ -64,8 +64,12 @@ BLOCK DIAGRAM:
 IMAGE PROCESSING:
 ![image](https://user-images.githubusercontent.com/89849978/204726720-4e1834b3-8394-4adc-a3f3-de823b2b1f4e.png)
 
-CURRENTLY WORKING:
-![image](https://user-images.githubusercontent.com/89849978/204726802-fc8d3a44-b38c-4acf-b07d-f7b01605d54b.png)
+CURRENTLY WORKING :
+# ![image](https://user-images.githubusercontent.com/89849978/204726802-fc8d3a44-b38c-4acf-b07d-f7b01605d54b.png)
+![index_page](https://user-images.githubusercontent.com/89849978/210586261-33573595-ec8d-400e-8c59-11bbfed12490.png)
+![after_indexPage](https://user-images.githubusercontent.com/89849978/210586352-08c6f716-b6ea-43f1-9c81-d638649252af.png)
+![final output](https://user-images.githubusercontent.com/89849978/210586393-cfa1ec41-fd82-4b54-98c9-0b4b99ac0909.png)
+
 
 FUTURE SCOPE:
 
