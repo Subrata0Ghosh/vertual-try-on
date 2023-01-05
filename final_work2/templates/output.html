@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<title>output</title>
+</head>
+
+<body>
+	<p>output uploaded successfully</p>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- adding css -->
+	<link href="{{url_for('static',filename='style.css')}}" rel="stylesheet" type="text/css">
+
+
+	<!-- uploaded image -->
+	<div class="output">
+		<h3>The processing Image is </h3>
+
+		<p>
+
+			<img src="{{imagelist}}" style="width:200px;height:200px;">
+
+		</p>
+
+		<!-- <p>The Images File Name: {{name}}</p> -->
+		<!-- <img src="static/output/waka.jpg" alt="output" width="100" height="150"> -->
+		<!-- <img src = "{{ url_for('static', filename='waka.jpg')}}"/> -->
+
+		<!-- <img src = "{{ url_for('static', filename=i)}}"> -->
+		<!-- <p>File Name: {{name2}}</p> --><!-- {{break}} -->
+	</div> 
+
+</body>
+
+</html>

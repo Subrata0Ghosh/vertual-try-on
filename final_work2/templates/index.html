@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- adding js -->
+  <script src="myscripts.js"></script>
+  <!-- adding css -->
+  <link href="{{url_for('static',filename='style.css')}}" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='static/style.css') }}">
+</head>
+
+<body style="font-family:Verdana;">
+
+  <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+    <h1>Welcome !!</h1>
+  </div>
+
+  <div style="overflow:auto">
+    <div class="menu">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+    </div>
+
+    <div class="main">
+      <h2>Dress try</h2>
+      <p>Tryandbuy allows online shoppers to combine different clothes
+        and see them on their bodies. Try as many as option until you
+        find the perfect match.</p>
+
+      <!-- </div> -->
+
+
+      <!-- file upload start  -->
+      <div class="main2">
+        <div class="file_upload">
+          <h3>Follow bellow 3 steps </h3>
+          <form method="post" action="http://localhost:5000/success" enctype="multipart/form-data">
+            <!-- <form action = "/success" method = "post" enctype="multipart/form-data" >   -->
+            <p> step 1: upload your photo</p>
+            <input type="file" name="file" />
+
+            <p>step 2: upload photo of which dress you want to try vertually</p>
+            <input type="file" name="file2" />
+
+            <p>step:3 now submit your image</p>
+            <!-- <input type="submit" value="Upload"> -->
+            <button class="submit" role="button" onclick="myFunction()">Upload</button>
+            
+          </form>
+          <!-- file upload end  -->
+        </div>
+
+        <!-- uploaded image start-->
+        <div class="upload_image">
+          <p>The Images File Name: {{name}} , {{name2}}</p>
+
+          <p>
+            {% for i in imagelist %}
+
+            <img src="{{ url_for('static', filename=i)}}" style="width:200px;height:200px;">
+
+            {% endfor %}
+          </p>
+        </div>
+
+        <div class="redirect">
+          <!-- output button -->
+          <!-- <form action = "/output" method = "post" enctype="multipart/form-data" >   
+        <p><input type = "submit" value="output" > </p>
+    </form> -->
+        <p>click,to go output page <a href="/output">View output</a> </p>
+          
+          <!-- uploaded image end-->
+        </div>
+      </div>
+      <!-- show proccesed/output image start-->
+      <!-- <h1>The processing Image is </h1>
+
+	<p>
+		
+		<img src = "{{imagelist}}" style="width:200px;height:200px;">
+		 <img src = "{{ url_for('static', filename=imagelist)}}" style="width:200px;height:200px;"> 
+	</p>  -->
+      <!--  show proccesed/output image end  -->
+
+
+    </div>
+
+
+    <div class="right">
+      <h2>About</h2>
+      <p>Tryndbuy allows online shoppers to combine different
+        clothes and see them on their bodies.</p>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <div id='footer'>© copyright TeamMiet</div>
+
+
+</body>
+
+</html>
