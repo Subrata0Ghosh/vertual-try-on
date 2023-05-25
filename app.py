@@ -3,9 +3,6 @@ import os
 import numpy as np
 import cv2
 
-
-app = Flask(__name__)
-
 # file UPLOAD start'
 
 # UPLOAD_FOLDER = os.path.join('static', 'upload')
@@ -21,6 +18,8 @@ app = Flask(__name__)
 # def allowed_file(filename):
 # 	return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+app = Flask(__name__)
+
 @app.route('/')  
 def home():  
     return render_template("index.html")  
@@ -35,7 +34,7 @@ def uploadImage():
         app.secret_key = "secret key"
         app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
         app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
-         
+    
         f = request.files['file']
         # f.save(os.path.join(app.config['UPLOAD_FOLDER'],f.filename) ) # add file in spacific folder
         f.save(os.path.join(app.config['UPLOAD_FOLDER'],'sample_single.png') ) 
@@ -124,5 +123,5 @@ def about():
     return render_template("about.html")  
 
 if __name__ == '__main__':  
- app.run(debug = True, port=5000) 
+    app.run(debug = True, port=5000) 
     
