@@ -3,8 +3,9 @@ import os
 import numpy as np
 import cv2
 
-# file UPLOAD start'
+app = Flask(__name__)
 
+# file UPLOAD start'
 # UPLOAD_FOLDER = os.path.join('static', 'upload')
 # app.secret_key = "secret key"
 # app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -18,7 +19,7 @@ import cv2
 # def allowed_file(filename):
 # 	return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-app = Flask(__name__)
+
 
 @app.route('/')  
 def home():  
