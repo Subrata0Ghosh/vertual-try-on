@@ -1,0 +1,26 @@
+<html>  
+<head>  
+<title>success</title>  
+</head>  
+<body>  
+<p>File uploaded successfully</p>  
+
+<!-- uploaded image -->
+<p>The Images File Name: {{name}} , {{name2}}</p>
+
+	<p>
+		{% for i in imagelist %}
+	
+		<img src = "{{ url_for('static', filename=i)}}" style="width:200px;height:200px;">
+		
+		{% endfor %}
+	</p> 
+
+
+	<!-- <form action = "/output" method = "post" enctype="multipart/form-data" >   
+        <p><input type = "submit" value="output" > </p>
+    </form> -->
+	<a href="/process">View output</a> 
+	
+</body>  
+</html>  
