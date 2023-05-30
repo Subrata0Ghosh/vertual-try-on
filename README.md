@@ -77,7 +77,7 @@ CURRENTLY WORKING :
 ![final output](https://user-images.githubusercontent.com/89849978/210586393-cfa1ec41-fd82-4b54-98c9-0b4b99ac0909.png)
 
 ---------------------------------------------------------------
-**latest update page**
+<h1 align="center"> latest update page </h1>
 
 Home:
 
