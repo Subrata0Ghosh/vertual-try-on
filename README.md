@@ -69,12 +69,23 @@ CURRENTLY WORKING :
 **old index.html page**
 ![image](https://user-images.githubusercontent.com/89849978/204726802-fc8d3a44-b38c-4acf-b07d-f7b01605d54b.png)
 
-**latest index.html page:**
+**index.html page:**
 ![index_page](https://user-images.githubusercontent.com/89849978/210586261-33573595-ec8d-400e-8c59-11bbfed12490.png)
 **success.html page:**
 ![after_indexPage](https://user-images.githubusercontent.com/89849978/210586352-08c6f716-b6ea-43f1-9c81-d638649252af.png)
 **output.html page:**
 ![final output](https://user-images.githubusercontent.com/89849978/210586393-cfa1ec41-fd82-4b54-98c9-0b4b99ac0909.png)
+
+---------------------------------------------------------------
+**latest update page**
+
+Home:
+
+![image](https://github.com/Subrata0Ghosh/vertual-try-on/assets/89849978/13b7acc7-5401-4ca0-aab9-b78cd62f34bb)
+
+Output:
+
+![image](https://github.com/Subrata0Ghosh/vertual-try-on/assets/89849978/88de2e3b-f733-45d4-a4ca-50d7f89192f2)
 
 
 FUTURE SCOPE:
